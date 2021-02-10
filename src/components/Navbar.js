@@ -20,13 +20,13 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="myNavbar">
           <ul className="nav navbar-nav navbar-right">
             <li>
-              <a href="#">WHO</a>
+              <a href="#firstContainer">WHO</a>
             </li>
             <li>
-              <a href="#">WHAT</a>
+              <a href="#secondContainer">WHAT</a>
             </li>
             <li>
-              <a href="#">WHERE</a>
+              <a href="#thirdContainer">WHERE</a>
             </li>
           </ul>
         </div>

@@ -1,6 +1,6 @@
 const FirstContainer = () => {
   return (
-    <div className="container-fluid bg-1 text-center">
+    <div className="container-fluid bg-1 text-center" id="firstContainer">
       <h3 className="margin">Who Am I?</h3>
       <img
         src="https://i.ibb.co/JtbyPKy/bird.jpg"
