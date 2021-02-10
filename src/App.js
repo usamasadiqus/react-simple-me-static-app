@@ -1,9 +1,12 @@
 import "./App.css";
+import Navbar from "./components/Navbar";
+import FirstContainer from "./components/FirstContainer";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World!</h1>
+    <div>
+      <Navbar />
+      <FirstContainer />
     </div>
   );
 }
