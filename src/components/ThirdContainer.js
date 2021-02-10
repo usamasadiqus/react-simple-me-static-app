@@ -1,3 +1,7 @@
+import Bird1Image from "./../images/birds1.jpg";
+import Bird2Image from "./../images/birds2.jpg";
+import Bird3Image from "./../images/birds3.jpg";
+
 const ThirdContainer = () => {
   return (
     <div className="container-fluid bg-3 text-center" id="thirdContainer">
@@ -10,7 +14,7 @@ const ThirdContainer = () => {
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
           <img
-            src="https://i.ibb.co/mT2B1cy/birds1.jpg"
+            src={Bird1Image}
             className="img-responsive margin"
             style={{ width: "100%" }}
             alt="Image"
@@ -22,7 +26,7 @@ const ThirdContainer = () => {
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
           <img
-            src="https://i.ibb.co/VxjyGxD/birds2.jpg"
+            src={Bird2Image}
             className="img-responsive margin"
             style={{ width: "100%" }}
             alt="Image"
@@ -34,7 +38,7 @@ const ThirdContainer = () => {
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
           <img
-            src="https://i.ibb.co/TLCs4DG/birds3.jpg"
+            src={Bird3Image}
             className="img-responsive margin"
             style={{ width: "100%" }}
             alt="Image"
